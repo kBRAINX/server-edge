@@ -1,0 +1,28 @@
+# Environnement virtuel
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sorties de campagne générées automatiquement par server_sim.py
+# (nommage horodaté par défaut : resultats_sim_<timestamp>.csv)
+# -> simulation_3h.csv et traces_preview.csv restent versionnés (jeu de
+#    données de référence utilisé par le notebook et les figures).
+resultats_sim_*.csv
+
+# Éditeurs / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Divers
+*.log
+.env
